@@ -39,14 +39,15 @@ const quizData = [{
         correct: "c",
     },
 ];
-const answerEls = document.querySelectorAll('.answer');
-const quiz = document.getElementById('quiz');
-const questionE1 = document.getElementById('question');
-const a_text = document.getElementById('a_text');
-const b_text = document.getElementById('b_text');
-const c_text = document.getElementById('c_text');
-const d_text = document.getElementById('d_text');
-const submitBtn = document.getElementById('submit');
+
+const answerEls = document.querySelectorAll(".answer");
+const quiz = document.getElementById("quiz");
+const questionE1 = document.getElementById("question");
+const a_text = document.getElementById("a_text");
+const b_text = document.getElementById("b_text");
+const c_text = document.getElementById("c_text");
+const d_text = document.getElementById("d_text");
+const submitBtn = document.getElementById("submit");
 
 let currentQuiz = 0;
 let score = 0;
@@ -62,11 +63,9 @@ function loadQuiz() {
     b_text.innerHTML = currentQuizData.b;
     c_text.innerHTML = currentQuizData.c;
     d_text.innerHTML = currentQuizData.d;
-
 }
 
 function getSelected() {
-
     let answer = undefined;
 
     answerEls.forEach((answerEl) => {
@@ -101,9 +100,5 @@ submitBtn.addEventListener("click", () => {
             <button onclick="location.reload()">Reload</button>
             `;
         }
-
     }
-
-
-
 });

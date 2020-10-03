@@ -13,3 +13,10 @@
 - question from obj
 - select answer
 - at the end show score
+  3.Recipe App
+  -- https://uidesigndaily.com/posts/sketch-recipe-app-food-mobile-day-615
+  -- https://github.com/public-apis/public-apis
+  -- https://heroicons.com/
+  -- list of recipe
+  -- recipe info on click
+  -- fav recipe (w/localStorage)
